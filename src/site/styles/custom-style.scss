@@ -10,4 +10,17 @@ body {
     //  h1 {
     //   color: black;
     //  }
+
+    // 1201~1400px: 오른쪽 칸(그래프 · 개요 · 백링크)을 접지 않고 세 칸을 좁혀서 나란히 둔다.
+    // 기본 템플릿은 1400px 미만에서 오른쪽 칸을 아래 패널로 바꾼다(기준은 digital-garden-base.scss ·
+    // sidebar.njk · graphScript.njk 의 1200px 로 낮췄다).
+    @media (min-width: 1201px) and (max-width: 1400px) {
+        --dg-filetree-width: 220px;
+        --dg-filetree-min-width: 220px;
+        --dg-filetree-gap: 40px;
+        --dg-content-max-width: 600px;
+        --dg-sidebar-gap: 40px;
+        --dg-sidebar-max-width: 280px;
+        --dg-graph-width: 240px;
+    }
 }

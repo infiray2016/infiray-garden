@@ -578,8 +578,8 @@ body:has(.forestry-fixed-ui[data-fixed-position="bottom-right"]) .floating-actio
 }
 
 // Page panel: whenever the sidebar does not fit beside the content (below
-// 1400px) it becomes a bottom sheet opened from .page-panel-toggle. On phones
-// the toggle sits in the navbar; between 1000px and 1400px with the filetree
+// 1200px) it becomes a bottom sheet opened from .page-panel-toggle. On phones
+// the toggle sits in the navbar; between 1000px and 1200px with the filetree
 // on there is no navbar, so the floating toggle (.page-panel-fab, in
 // .floating-actions) is shown instead. Backdrop, handle and close button
 // only exist on the sheet.
@@ -595,7 +595,7 @@ body:has(.forestry-fixed-ui[data-fixed-position="bottom-right"]) .floating-actio
     flex-shrink: 0;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1200px) {
     // Only offer the button on pages that actually have a sidebar
     body:has(#page-panel) .page-panel-toggle {
         display: inline-flex;
@@ -848,7 +848,7 @@ body:has(.forestry-fixed-ui[data-fixed-position="bottom-right"]) .floating-actio
         overflow-y: auto;
         scrollbar-width: thin;
     }
-    @media (max-width: 1400px) {
+    @media (max-width: 1200px) {
         .search-button {
             margin-right: 10px;
         }
@@ -866,7 +866,7 @@ body:has(.forestry-fixed-ui[data-fixed-position="bottom-right"]) .floating-actio
 }
 
 // On medium screens, filetree stays but with fixed width
-@media (max-width: 1400px) {
+@media (max-width: 1200px) {
     .filetree-wrapper {
         width: var(--dg-filetree-width);
         justify-content: flex-start;
