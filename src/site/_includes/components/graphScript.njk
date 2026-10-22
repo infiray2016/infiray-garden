@@ -461,10 +461,10 @@ function init() {
     return initPromise;
 }
 
-// Below 1200px the sidebar is a closed bottom sheet (page panel),
+// Below 1100px the sidebar is a closed bottom sheet (page panel),
 // so the local graph is not visible. Skip the data fetch and the Pixi render
 // until the sheet first opens or the viewport grows past the breakpoint.
-const pagePanelMedia = window.matchMedia('(max-width: 1200px)');
+const pagePanelMedia = window.matchMedia('(max-width: 1100px)');
 function localGraphHidden() {
     const panel = document.getElementById('page-panel');
     return pagePanelMedia.matches && panel && !panel.classList.contains('is-open');

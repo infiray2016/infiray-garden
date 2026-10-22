@@ -11,10 +11,10 @@ body {
     //   color: black;
     //  }
 
-    // 1201~1400px: 오른쪽 칸(그래프 · 개요 · 백링크)을 접지 않고 세 칸을 좁혀서 나란히 둔다.
-    // 기본 템플릿은 1400px 미만에서 오른쪽 칸을 아래 패널로 바꾼다(기준은 digital-garden-base.scss ·
-    // sidebar.njk · graphScript.njk 의 1200px 로 낮췄다).
-    @media (min-width: 1201px) and (max-width: 1400px) {
+    // 1101~1400px: 오른쪽 칸(그래프 · 개요 · 백링크)을 접지 않고 세 칸을 좁혀서 나란히 둔다.
+    // 기본 템플릿은 1400px 미만에서 오른쪽 칸을 아래 패널로 바꾼다. 그 기준을 digital-garden-base.scss ·
+    // sidebar.njk · graphScript.njk 에서 1100px 로 낮췄다(아이패드 프로 11형 가로 1194px 포함).
+    @media (min-width: 1251px) and (max-width: 1400px) {
         --dg-filetree-width: 220px;
         --dg-filetree-min-width: 220px;
         --dg-filetree-gap: 40px;
@@ -22,5 +22,14 @@ body {
         --dg-sidebar-gap: 40px;
         --dg-sidebar-max-width: 280px;
         --dg-graph-width: 240px;
+    }
+    @media (min-width: 1101px) and (max-width: 1250px) {
+        --dg-filetree-width: 200px;
+        --dg-filetree-min-width: 200px;
+        --dg-filetree-gap: 30px;
+        --dg-content-max-width: 560px;
+        --dg-sidebar-gap: 30px;
+        --dg-sidebar-max-width: 260px;
+        --dg-graph-width: 220px;
     }
 }
