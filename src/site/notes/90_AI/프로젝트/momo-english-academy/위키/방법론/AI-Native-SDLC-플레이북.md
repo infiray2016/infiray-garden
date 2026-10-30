@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-path":"프로젝트/momo-english-academy/위키/방법론/AI-Native-SDLC-플레이북.md","permalink":"/프로젝트/momo-english-academy/위키/방법론/AI-Native-SDLC-플레이북/","tags":["프로젝트/momo-english-academy","위키","방법론","공통"],"updated":"2026-10-30","dg-note-properties":{"type":"wiki","kind":"방법론","project":"momo-english-academy","updated":"2026-10-30","status":"current","sources":["2026-10-30_검토_기록-규칙-전환-훅","2026-10-30_산출물_기록-규칙-묶음-끝-전환","2026-10-30_조사_작업-속도-토큰-진단-보탬","2026-10-30_조사_작업-속도-토큰-진단","2026-10-16_조사_AI-Native-SDLC-플레이북","2026-10-16_대화_세션기록"],"tags":["프로젝트/momo-english-academy","위키","방법론","공통"]}}
+{"dg-publish":true,"dg-path":"프로젝트/momo-english-academy/위키/방법론/AI-Native-SDLC-플레이북.md","permalink":"/프로젝트/momo-english-academy/위키/방법론/AI-Native-SDLC-플레이북/","tags":["프로젝트/momo-english-academy","위키","방법론","공통"],"updated":"2026-10-30","dg-note-properties":{"type":"wiki","kind":"방법론","project":"momo-english-academy","updated":"2026-10-30","status":"current","sources":["2026-10-30_검토_기록-규칙-전환-훅-재검토","2026-10-30_검토_기록-규칙-전환-훅","2026-10-30_산출물_기록-규칙-묶음-끝-전환","2026-10-30_조사_작업-속도-토큰-진단-보탬","2026-10-30_조사_작업-속도-토큰-진단","2026-10-16_조사_AI-Native-SDLC-플레이북","2026-10-16_대화_세션기록"],"tags":["프로젝트/momo-english-academy","위키","방법론","공통"]}}
 ---
 
 
@@ -98,3 +98,5 @@ Anthropic 이 2026-08-21 에 공개한 "The AI-native SDLC playbook"(블로그 �
 요청자 결정(2026-10-30 11:3x, [[90_AI/프로젝트/momo-english-academy/원자료/산출물/2026-10-30_산출물_기록-규칙-묶음-끝-전환\|2026-10-30_산출물_기록-규칙-묶음-끝-전환]]): 기록 규칙을 묶음 끝으로 바꾸고 맥락 줄이기 다섯을 모두 적용했다. 훅 · 운영 규칙 쪽 · 스킬 · CLAUDE.md 둘 · 에이전트 정의 여섯을 고쳤다. 다음 세션부터 걸린다.
 
 기록 규칙 전환 검토(10-30 13:5x, [[90_AI/프로젝트/momo-english-academy/원자료/검토/2026-10-30_검토_기록-규칙-전환-훅\|2026-10-30_검토_기록-규칙-전환-훅]]): Changes requested(Important 둘 — git 이 한글 경로를 이스케이프해 13절 변경 검사가 걸리지 않음, 새 보고 파일 사본 요구가 턴마다 남음; Minor 여섯). 컨트롤러가 모두 반영했고(한글 경로 `core.quotePath=false`, 새 파일 사본 요구는 조사만, 검토 장부 폴더는 묶음 끝 log, 사본 맞대기 경계 · 브리프 판별 정규식 · 문구 넷), 재검토 중이다.
+
+기록 규칙 전환 재검토 Approved(10-30 14:1x, [[90_AI/프로젝트/momo-english-academy/원자료/검토/2026-10-30_검토_기록-규칙-전환-훅-재검토\|2026-10-30_검토_기록-규칙-전환-훅-재검토]]): 지적 여덟 모두 반영, 모의 A · D · G · I · J · K 가 운영 쪽 빈도 표와 맞음. 새 Minor(이름 맞대기 왼쪽 경계)는 컨트롤러가 바로 고쳤다. 묶음 닫힘. 훅 · 규칙 쪽 · 스킬 · CLAUDE.md · 에이전트 정의가 새 규칙으로 맞춰졌고 다음 세션부터 그대로 돈다.
